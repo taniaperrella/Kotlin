@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/default_margin"
+    tools:context=".view.CardsActivity">
+
+    <LinearLayout
+        android:id="@+id/cardPlayerOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_card_padding"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:background="#BABABA"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/cardPlayerOneLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/card_player_one_label" />
+        <TextView
+            android:id="@+id/cardPlayerOneVelocity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/card_player_one_velocity" />
+        <TextView
+            android:id="@+id/cardPlayerOneAccelerationTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/card_player_one_acceleration_time" />
+        <TextView
+            android:id="@+id/cardPlayerOnePassengers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/card_player_one_passengers" />
+        <TextView
+            android:id="@+id/cardPlayerOneXP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/card_player_one_xp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cardPlayerTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_card_padding"
+        android:background="#BABABA"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/cardPlayerTwoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/card_player_one_label" />
+        <TextView
+            android:id="@+id/cardPlayerTwoVelocity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/card_player_one_velocity" />
+        <TextView
+            android:id="@+id/cardPlayerTwoAccelerationTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/card_player_one_acceleration_time" />
+        <TextView
+            android:id="@+id/cardPlayerTwoPassengers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/card_player_one_passengers" />
+        <TextView
+            android:id="@+id/cardPlayerTwoXP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/card_player_one_xp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/chooseCriteriaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/default_margin"
+        android:text="@string/choose_criteria_button_label"/>
+
+</LinearLayout>

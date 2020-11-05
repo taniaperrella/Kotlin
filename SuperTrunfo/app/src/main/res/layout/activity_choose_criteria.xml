@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseCriteriaActivity">
+
+    <Button
+        android:id="@+id/velocityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/velocity_button_label"
+        app:layout_constraintBottom_toTopOf="@+id/accelerationTimeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/accelerationTimeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acceleration_time_button_label"
+        app:layout_constraintBottom_toTopOf="@+id/passengersButton"
+        app:layout_constraintEnd_toEndOf="@+id/velocityButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/velocityButton"
+        app:layout_constraintTop_toBottomOf="@+id/velocityButton" />
+
+    <Button
+        android:id="@+id/passengersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passengers_button_label"
+        app:layout_constraintBottom_toTopOf="@+id/xPButton"
+        app:layout_constraintEnd_toEndOf="@+id/accelerationTimeButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/accelerationTimeButton"
+        app:layout_constraintTop_toBottomOf="@+id/accelerationTimeButton" />
+
+    <Button
+        android:id="@+id/xPButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xp_button_label"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/passengersButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/passengersButton"
+        app:layout_constraintTop_toBottomOf="@+id/passengersButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

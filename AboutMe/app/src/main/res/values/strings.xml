@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name">Marcella</string>
+    <string name="yellow_star">Estrela Amarela</string>
+    <string name="bio_text">Com este commit,\n
+        a normalização da data causou a race \n
+        condition do carregamento de JSON \n
+        delimitado por linhas. \n
+        Nesse pull request, a \n
+        disposição dos elementos \n
+        HTML otimizou a renderização \n
+        da renderização de floats parciais.
+        Mussum Ipsum, cacilds vidis litro \n
+        abertis. Nec orci ornare consequat.\n
+        Praesent lacinia ultrices consectetur.\n
+        Sed non ipsum felis. Quem num gosta di mé,\n
+        boa gentis num é. Praesent vel viverra nisi.\n
+        Mauris aliquet nunc non turpis scelerisque,\n
+        eget. Manduma pindureta quium dia nois paga.</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SuperTrunfo</string>
+    <string name="player_one_label">Jogador 1</string>
+    <string name="player_two_label">Jogador 2</string>
+    <string name="start_game_button_label">Começar Jogo!</string>
+    <string name="card_player_one_label">TextView</string>
+    <string name="card_player_one_velocity">Velocity</string>
+    <string name="card_player_one_acceleration_time">Acceleration</string>
+    <string name="card_player_one_passengers">Passengers</string>
+    <string name="card_player_one_xp">xp</string>
+    <string name="choose_criteria_button_label">Choose criteria</string>
+    <string name="velocity_button_label">Velocity</string>
+    <string name="acceleration_time_button_label">Acceleration Time</string>
+    <string name="passengers_button_label">Passengers</string>
+    <string name="xp_button_label">XP</string>
+</resources>

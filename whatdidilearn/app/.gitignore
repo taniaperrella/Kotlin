@@ -1,0 +1,13 @@
+/build
+*.iml
+.gradle
+/local.properties
+/.idea/*
+.DS_Store
+/captures
+fastlane/report.xml
+fastlane/Pluginfile
+fastlane/README.md
+.externalNativeBuild
+.cxx
+github_credentials.properties

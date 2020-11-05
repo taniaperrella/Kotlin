@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:id="@+id/understadingLevelContainer"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/learningItemDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/learningItemTitle"
+        tools:background="#FF9800"></LinearLayout>
+
+    <TextView
+        android:id="@+id/learningItemTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="TextView"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/learningItemDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/understadingLevelContainer"
+        tools:text="Kotlin Collections" />
+
+    <TextView
+        android:id="@+id/learningItemDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/understadingLevelContainer"
+        app:layout_constraintTop_toBottomOf="@+id/learningItemTitle"
+        tools:text="The Kotlin Standard Library provides a comprehensive set of tools for managing collections – groups of a variable number of items (possibly zero) that share significance to the problem being solved and are operated upon commonly." />
+</androidx.constraintlayout.widget.ConstraintLayout>
