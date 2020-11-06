@@ -25,7 +25,7 @@ class NewItemActivity : AppCompatActivity() {
         supportActionBar?.title = "New Learned Item"
 
         val dao = LearnedItemsDatabase.getDatabase(this, CoroutineScope(Dispatchers.IO)).learnedItemDao()
-        val repository = LearnedItemsRepository(dao)
+        //val repository = LearnedItemsRepository(dao)
         val viewModelFactory = NewLearnedItemViewModelFactory(repository)
         val viewModel = ViewModelProvider(this, viewModelFactory).get(NewLearnedItemViewModel::class.java)
 
